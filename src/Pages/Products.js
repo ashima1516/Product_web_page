@@ -74,7 +74,7 @@ const ProductList = () => {
         </SelectCategory>
   </div>
   <div>
-      <Title>Filter by Category:</Title>
+      <Title>Filter by Price:</Title>
         <Button onClick={() => sortProducts('default')}>Default</Button>
         <Button onClick={() => sortProducts('asc')}>Low to High</Button>
         <Button onClick={() => sortProducts('desc')}>High to Low</Button>
